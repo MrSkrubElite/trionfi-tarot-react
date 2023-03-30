@@ -1,15 +1,23 @@
+/* Fonts */
+@font-face {
+    font-family: poisonlove;
+    src: url(/src/assets/fonts/poisonLove/Poison\ Love\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: classica;
+    src: url(/src/assets/fonts/classica/Classica-Regular.otf);
+}
+
 
 #path {
     width: 100%;
     height: 100%;
-    z-index: 2;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .path-container {
     width: 100%;
-    height: 800px;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -21,4 +29,84 @@
     width: 300px;
     height: 500px;
     background-color: rgb(95, 95, 95);
+    -webkit-border-radius: 20px;
+    -webkit-border-bottom-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius: 20px;
+    -moz-border-radius-bottomright: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.horoscope-container {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(79, 78, 78);
+    -webkit-border-radius: 20px;
+    -webkit-border-bottom-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius: 20px;
+    -moz-border-radius-bottomright: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.crystals-container {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(66, 66, 66);
+    -webkit-border-radius: 20px;
+    -webkit-border-bottom-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius: 20px;
+    -moz-border-radius-bottomright: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+
+.starsBg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    user-select: none;
+}
+
+.choose-path {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.content-path-title h1 {
+    padding-top: 10rem;
+    font-family: classica;
+    font-size: 4rem;
 }
