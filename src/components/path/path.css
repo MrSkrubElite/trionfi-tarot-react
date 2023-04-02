@@ -27,47 +27,56 @@
 
 .tarotreading-container {
     width: 300px;
-    height: 500px;
-    background-color: rgb(95, 95, 95);
-    -webkit-border-radius: 20px;
-    -webkit-border-bottom-right-radius: 100px;
-    -webkit-border-bottom-left-radius: 100px;
-    -moz-border-radius: 20px;
-    -moz-border-radius-bottomright: 100px;
-    -moz-border-radius-bottomleft: 100px;
-    border-radius: 20px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
 }
 
-.horoscope-container {
-    width: 300px;
-    height: 500px;
-    background-color: rgb(79, 78, 78);
-    -webkit-border-radius: 20px;
-    -webkit-border-bottom-right-radius: 100px;
-    -webkit-border-bottom-left-radius: 100px;
-    -moz-border-radius: 20px;
-    -moz-border-radius-bottomright: 100px;
-    -moz-border-radius-bottomleft: 100px;
-    border-radius: 20px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 60px -10px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+
+.tarotreading-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
 }
+
+
+.horoscope-container{
+    width: 300px;
+}
+
+.horoscope-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
 
 .crystals-container {
     width: 300px;
-    height: 500px;
-    background-color: rgb(66, 66, 66);
-    -webkit-border-radius: 20px;
-    -webkit-border-bottom-right-radius: 100px;
-    -webkit-border-bottom-left-radius: 100px;
-    -moz-border-radius: 20px;
-    -moz-border-radius-bottomright: 100px;
-    -moz-border-radius-bottomleft: 100px;
-    border-radius: 20px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+}
+
+.crystals-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
 }
 
 

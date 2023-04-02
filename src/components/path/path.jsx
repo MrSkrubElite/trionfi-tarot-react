@@ -1,6 +1,9 @@
 import './path.css';
 import taroticon from "../../assets/imgs/tarotReadingIcon.png"
 import starsBg from '../../assets/starsBg.mp4'
+import tarotpolaroid from "../../assets/imgs/tarotreading.png"
+import horoscope from "../../assets/imgs/horoscope.png"
+import crystals from "../../assets/imgs/crystals.png"
 
 const path = () => {
   return (
@@ -18,14 +21,16 @@ const path = () => {
 
               <div className="choose-path">
                 <div className="tarotreading-container">
-                    <img src={taroticon} alt="tarot-icon" />
+                    <img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow" />
                     
                 </div>
                 <div className="horoscope-container">
-                    
+                  <img src={horoscope} alt="horoscope" className="hvr-grow-shadow"/>
+
                 </div>
                 <div className="crystals-container">
-                    
+                  <img src={crystals} alt="crystals" className="hvr-grow-shadow"/>
+
                 </div>
               </div>
               
