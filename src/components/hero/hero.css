@@ -17,10 +17,9 @@
 
 
 
-.mata {
+.welcome {
     width: 100%;
     height: 100vh;
-
     position: relative;
 }
 
@@ -41,6 +40,15 @@ video {
     align-items: center;
     color: #fff;
     user-select: none;
+}
+
+.content img {
+    transition: all 0.3s;
+}
+
+.content img:hover {
+    scale: 1.1;
+    transition: all 0.3s;
 }
 
 .content h1 {

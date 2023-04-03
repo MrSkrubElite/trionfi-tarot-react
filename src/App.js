@@ -3,7 +3,6 @@ import Hero from './components/hero/hero';
 import Navbar from './components/navbar/navbar';
 import Path from './components/path/path';
 
-
 const App = () => {
   return (
     <>

@@ -25,9 +25,7 @@
     background-color: grey;
 }
 
-.tarotreading-container {
-    width: 300px;
-}
+
 
 
 /* Grow Shadow */
@@ -53,9 +51,12 @@
     rotate: 3deg;
     transition: all 0.3s;
   }
+  
 
 
-
+  .tarotreading-container {
+    width: 350px;
+}
 
 .tarotreading-container img {
     width: 100%;
@@ -66,7 +67,7 @@
 
 
 .horoscope-container{
-    width: 300px;
+    width: 350px;
 }
 
 .horoscope-container img {
@@ -78,7 +79,7 @@
 
 
 .crystals-container {
-    width: 300px;
+    width: 350px;
 }
 
 .crystals-container img {
@@ -127,4 +128,5 @@
     padding-top: 10rem;
     font-family: classica;
     font-size: 4rem;
+    text-align: center;
 }
