@@ -21,15 +21,15 @@ const path = () => {
 
               <div className="choose-path">
                 <div className="tarotreading-container">
-                    <img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow" />
+                    <img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow hoverrotate" />
                     
                 </div>
                 <div className="horoscope-container">
-                  <img src={horoscope} alt="horoscope" className="hvr-grow-shadow"/>
+                  <img src={horoscope} alt="horoscope" className="hvr-grow-shadow hoverrotate"/>
 
                 </div>
                 <div className="crystals-container">
-                  <img src={crystals} alt="crystals" className="hvr-grow-shadow"/>
+                  <img src={crystals} alt="crystals" className="hvr-grow-shadow hoverrotate"/>
 
                 </div>
               </div>
