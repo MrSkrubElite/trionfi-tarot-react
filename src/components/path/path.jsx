@@ -5,7 +5,7 @@ import tarotpolaroid from "../../assets/imgs/tarotreading.png"
 import horoscope from "../../assets/imgs/horoscope.png"
 import crystals from "../../assets/imgs/crystals.png"
 import React from 'react'
-
+import { Link } from "react-router-dom";
 
 const path = () => {
   return (
@@ -23,7 +23,7 @@ const path = () => {
 
               <div className="choose-path">
                 <div className="tarotreading-container">
-                    <a href="#"><img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow hoverrotate" /></a>
+                    <Link to="tarotreading"><img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow hoverrotate" /></Link>
                     
                     
                 </div>
