@@ -28,12 +28,12 @@ const path = () => {
                     
                 </div>
                 <div className="horoscope-container">
-                  <a href=""><img src={horoscope} alt="horoscope" className="hvr-grow-shadow hoverrotate"/></a>
+                  <Link to="/horoscopepage"><img src={horoscope} alt="horoscope" className="hvr-grow-shadow hoverrotate"/></Link>
                   
 
                 </div>
                 <div className="crystals-container">
-                  <a href=""><img src={crystals} alt="crystals" className="hvr-grow-shadow hoverrotate"/></a>
+                  <Link to="/crystalspage"><img src={crystals} alt="crystals" className="hvr-grow-shadow hoverrotate"/></Link>
                   
 
                 </div>

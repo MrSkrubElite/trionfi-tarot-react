@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import TarotReading from './Pages/TarotPage/TarotReading';
+import HoroscopePage from './Pages/HoroscopePage/HoroscopePage';
+import CrystalsPage from './Pages/CrystalsPage/CrystalsPage';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -15,8 +17,16 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "tarotreading",
+    path: "/tarotreading",
     element: <TarotReading />,
+  },
+  {
+    path: "/horoscopepage",
+    element: <HoroscopePage />,
+  },
+  {
+    path: "/crystalspage",
+    element: <CrystalsPage />,
   },
 ]);
 
