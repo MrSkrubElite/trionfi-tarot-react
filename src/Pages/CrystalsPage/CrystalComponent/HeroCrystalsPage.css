@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* Fonts */
+@font-face {
+    font-family: poisonlove;
+    src: url(/src/assets/fonts/poisonLove/Poison\ Love\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: classica;
+    src: url(/src/assets/fonts/classica/Classica-Regular.otf);
+}
+
+
+#sectionHeroCrystalsPage {
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.HeroCrystalsPage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.videoHeroCrystalsPage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.contentHeroCrystalsPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    user-select: none;
+}
+
+.contentHeroCrystalsPage h1 {
+    font-family: classica;
+    font-size: 3rem;
+}
+
+.contentHeroCrystalsPage p {
+    font-family: classica;
+    font-size: 10rem;
+    letter-spacing: -5px;
+}
+
+.overlayHeroCrystalsPage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.contentHeroCrystalsPage img {
+    width: 350px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.contentHeroCrystalsPage img:hover {
+    scale: 1.1;
+    transition: all 0.3s;
+}
+

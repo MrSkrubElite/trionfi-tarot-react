@@ -1,10 +1,13 @@
 import './hero.css';
 import videoTarot from '../../assets/videoTarot.mp4'
+import React from 'react'
+import downarrow from "../../assets/imgs/downarrow.png"
+import downarrow2 from "../../assets/imgs/downarrow2.png"
 
 const hero = () => {
   return (
     <section>
-        <div className="mata">
+        <div className="welcome">
             <div className="overlay">
 
             </div>
@@ -12,6 +15,7 @@ const hero = () => {
             <div className="content">
               <h1>welcome to</h1>
               <p>Trionfi</p>
+              <a href="#path"><img src={downarrow} alt="downarrow" /></a>
             </div>
         </div>
     </section>

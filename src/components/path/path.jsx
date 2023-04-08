@@ -4,6 +4,8 @@ import starsBg from '../../assets/starsBg.mp4'
 import tarotpolaroid from "../../assets/imgs/tarotreading.png"
 import horoscope from "../../assets/imgs/horoscope.png"
 import crystals from "../../assets/imgs/crystals.png"
+import React from 'react'
+import { Link } from "react-router-dom";
 
 const path = () => {
   return (
@@ -21,15 +23,18 @@ const path = () => {
 
               <div className="choose-path">
                 <div className="tarotreading-container">
-                    <img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow" />
+                    <Link to="tarotreading"><img src={tarotpolaroid} alt="tarot-reading" className="hvr-grow-shadow hoverrotate" /></Link>
+                    
                     
                 </div>
                 <div className="horoscope-container">
-                  <img src={horoscope} alt="horoscope" className="hvr-grow-shadow"/>
+                  <Link to="/horoscopepage"><img src={horoscope} alt="horoscope" className="hvr-grow-shadow hoverrotate"/></Link>
+                  
 
                 </div>
                 <div className="crystals-container">
-                  <img src={crystals} alt="crystals" className="hvr-grow-shadow"/>
+                  <Link to="/crystalspage"><img src={crystals} alt="crystals" className="hvr-grow-shadow hoverrotate"/></Link>
+                  
 
                 </div>
               </div>

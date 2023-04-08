@@ -2,12 +2,39 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import TarotReading from './Pages/TarotPage/TarotReading';
+import HoroscopePage from './Pages/HoroscopePage/HoroscopePage';
+import CrystalsPage from './Pages/CrystalsPage/CrystalsPage';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/tarotreading",
+    element: <TarotReading />,
+  },
+  {
+    path: "/horoscopepage",
+    element: <HoroscopePage />,
+  },
+  {
+    path: "/crystalspage",
+    element: <CrystalsPage />,
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
