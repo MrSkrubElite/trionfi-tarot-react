@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroTarotReading.css';
-import videoHeroTarot from "../../../assets/videoTarotReading.mp4"
+import videoHeroTarot from "../../../assets/videoTarotReading7.m4v"
 import beginButton from "../../../assets/imgs/beginButton800.png"
 
 

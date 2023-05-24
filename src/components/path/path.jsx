@@ -1,6 +1,6 @@
 import './path.css';
 import taroticon from "../../assets/imgs/tarotReadingIcon.png"
-import starsBg from '../../assets/starsBg.mp4'
+import starsBg from '../../assets/starsBg4.m4v'
 import tarotpolaroid from "../../assets/imgs/tarotreading.png"
 import horoscope from "../../assets/imgs/horoscope.png"
 import crystals from "../../assets/imgs/crystals.png"

@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroHoroscopePage.css';
-import videoHeroHoroscopePage from "../../../assets/videoHoroscope.mp4"
+import videoHeroHoroscopePage from "../../../assets/videoHoroscope3.m4v"
 import beginButtonHoroscope from "../../../assets/imgs/beginButtonHoroscope800.png"
 
 

@@ -1,5 +1,5 @@
 import './hero.css';
-import videoTarot from '../../assets/videoTarot.mp4'
+import videoTarot from '../../assets/videoTarot3.m4v'
 import trionfiGIF from '../../assets/trionfiBUN_VP9.webm'
 import React from 'react'
 import downarrow from "../../assets/imgs/downarrow.png"

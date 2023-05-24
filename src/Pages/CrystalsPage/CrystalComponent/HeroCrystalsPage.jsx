@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroCrystalsPage.css';
-import videoHeroCrystalsPage from "../../../assets/videoCrystals.mp4"
+import videoHeroCrystalsPage from "../../../assets/videoCrystals3.m4v"
 import beginButtonCrystals from "../../../assets/imgs/beginButtonCrystals800.png"
 
 
